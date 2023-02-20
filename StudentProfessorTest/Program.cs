@@ -15,7 +15,7 @@ namespace StudentProfessorTest
             myPersonClass.Greet();
             StudentClass myStudentClass = new StudentClass();
             myStudentClass.Greet();
-            myPersonClass.SetAge(21);
+            myStudentClass.SetAge(21);
             myStudentClass.ShowAge();
             myStudentClass.Study();
             TeacherClass myTeacherClass = new TeacherClass();

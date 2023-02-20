@@ -16,8 +16,7 @@ namespace SchoolPersonnelProject
 
         public void ShowAge()
         {
-            PersonClass personClass = new PersonClass();
-            Console.WriteLine($"My age is {personClass.personAge} years old.");
+            Console.WriteLine($"My age is {personAge} years old.");
         }
 
     }
